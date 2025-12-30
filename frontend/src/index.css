@@ -1,0 +1,2 @@
+html, body, #root { height: 100%; }
+body { margin: 0; background: #ffffff; font-family: Inter, system-ui, Arial, sans-serif; color: #212529; }

@@ -1,0 +1,34 @@
+.add-expense-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 400px;
+  margin: 1.5rem auto;
+  padding: 1rem;
+  background: #fdfdfd;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.add-expense-form input,
+.add-expense-form select,
+.add-expense-form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.add-expense-form button {
+  padding: 0.6rem;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-expense-form button:hover {
+  background-color: #256d46;
+}

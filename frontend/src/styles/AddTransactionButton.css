@@ -1,0 +1,15 @@
+.add-fab {
+  position: fixed; bottom: 20px; left: 20px;
+  width: 56px; height: 56px; border-radius: 50%;
+  background: #007bff; color: #fff; border: none; font-size: 1.6rem;
+  display: flex; align-items: center; justify-content: center; cursor: pointer;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+.add-fab:hover { background: #0056b3; }
+
+
+.add-fab.secondary {
+  left: 90px; 
+  background: #6c757d;
+}
+.add-fab.secondary:hover { background: #5a6268; }
